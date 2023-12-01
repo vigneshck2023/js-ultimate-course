@@ -57,3 +57,16 @@ true => 1; false => 0 --> boolean
 // let strnum = String(num);
 // console.log(strnum);
 // console.log(typeof strnum);
+
+//***********************Operations***************************** */
+//let value = 3;
+//let negvalue = -value;
+//console.log(negvalue); value to negative value
+
+//console.log(2%3);
+
+//merging two strings
+// let str1 = "hello";
+// let str2 = " Vignesh";
+// let str3 = str1 + str2;
+// console.log(str3); 
