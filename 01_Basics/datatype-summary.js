@@ -88,3 +88,37 @@ When we check the type of non-primitive datatype it will return as object
 */
 
 //https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// --------------------------------------------------------------------------
+/*
+Primitive datatype uses the stack memory
+Non-Primitive datatype uses the heap memory
+*/
+//Stack Memory
+let username = "Vignesh"; //original reference
+// console.log(username);
+let newuser = username
+newuser = "coding"
+// console.log(newuser);
+/*
+1) Primitive datatype uses the stack memory, and it just gives the copy of the original reference
+2) Which means that there will not be any change the original reference which is given
+*/
+
+//Heap Memory
+let userOne = {
+    name: "Manav",
+    email: "manav2021@gmail.com",
+    upiid: "manav2023@ybl"
+}
+let userTwo = userOne
+userTwo.email = "manav@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
+
+/*
+1) Reference type or Non-primitive datatype uses heap memory, in which
+we will be getting the reference ie the value which we have declared and that value will get changed
+*/
+
