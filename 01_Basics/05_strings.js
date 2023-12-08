@@ -16,7 +16,7 @@ console.log(num1);
 
 //2
 //String Constructor -> we use String constructor to create a string object
-const num2 = new String('vignnesh');
+const num2 = new String('vignesh');
 console.log(num2);
 
 // console.log(num2[2]); // Using Square brackets we will be able to access each character
