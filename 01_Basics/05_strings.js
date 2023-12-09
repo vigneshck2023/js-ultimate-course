@@ -46,3 +46,17 @@ console.log(slicename);
 const Name = "  Vignesh  ";
 console.log(Name);
 console.log(Name.trim()); //trim() is used to trim the extra space
+/*
+There are 2 methods in trim which are:
+1) Trim Start
+2) Trim end
+*/
+//trim start
+const namesample = "Vignesh"
+console.log(namesample.trimEnd);
+
+let url = "https://vigneshck.code/vignesh%20ck.code"
+console.log(url.replace('%20',' ')); //%20 is being replaced with space
+
+let fun = "vignesh-ck-code";
+console.log(fun.split("-"));
